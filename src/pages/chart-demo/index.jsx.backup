@@ -1,0 +1,31 @@
+import React, { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
+import Chart from '../../components/ui/Chart';
+import { cn } from '../../utils/shadcn-utils';
+
+// Sample data
+const salesData = [
+  { month: 'Jan', sales: 1200, target: 1000, leads: 150 },
+  { month: 'Feb', sales: 1900, target: 1300, leads: 220 },
+  { month: 'Mar', sales: 1300, target: 1400, leads: 180 },
+  { month: 'Apr', sales: 1700, target: 1500, leads: 250 },
+  { month: 'May', sales: 1500, target: 1600, leads: 210 },
+  { month: 'Jun', sales: 2300, target: 1700, leads: 340 },
+];
+
+const pipelineData = [
+  { name: 'Discovery', value: 12 },
+  { name: 'Qualification', value: 24 },
+  { name: 'Proposal', value: 18 },
+  { name: 'Negotiation', value: 10 },
+  { name: 'Closing', value: 8 },
+];
+
+const marketingData = [
+  { month: 'Jan', email: 45, social: 80, direct: 25 },
+  { month: 'Feb', email: 58, social: 90, direct: 32 },
+  { month: 'Mar', email: 65, social: 102, direct: 45 },
+  { month: 'Apr', email: 70, social: 120, direct: 50 },
+  { month: 'May', email: 85, social: 115, direct: 65 },
+  { month: 'Jun', email: 100, social: 130, direct: 70 },
+];

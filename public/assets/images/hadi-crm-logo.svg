@@ -1,0 +1,22 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="25" cy="30" r="20" fill="#1E3A8A"/>
+  
+  <!-- Sales icon (target with arrow) -->
+  <g transform="translate(15, 20)">
+    <!-- Target rings -->
+    <circle cx="10" cy="10" r="8" fill="none" stroke="#10B981" stroke-width="1"/>
+    <circle cx="10" cy="10" r="5" fill="none" stroke="#10B981" stroke-width="1"/>
+    <circle cx="10" cy="10" r="2" fill="#F59E0B"/>
+    
+    <!-- Arrow pointing up-right -->
+    <path d="M12 8 L16 4 L14 6 L18 6 L18 8 L14 8 Z" fill="#F59E0B"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="55" y="22" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1E3A8A">Hadi CRM</text>
+  <text x="55" y="40" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#10B981">Sales</text>
+  
+  <!-- Tagline -->
+  <text x="55" y="52" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">Streamline Your Sales Process</text>
+</svg>

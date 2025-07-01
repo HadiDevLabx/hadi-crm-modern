@@ -1,0 +1,338 @@
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.login-container {
+  min-height: 100vh;
+  background-image: 
+    radial-gradient(circle at 10% 20%, rgba(30, 64, 175, 0.3) 0%, rgba(30, 58, 138, 0) 20%),
+    radial-gradient(circle at 90% 80%, rgba(124, 58, 237, 0.3) 0%, rgba(124, 58, 237, 0) 30%),
+    radial-gradient(circle at 50% 50%, rgba(79, 70, 229, 0.1) 0%, rgba(79, 70, 229, 0) 70%);
+  background-color: #f8fafc;
+  transition: all 0.5s ease;
+}
+
+.dark .login-container {
+  background-color: #0f172a;
+  background-image: 
+    radial-gradient(circle at 10% 20%, rgba(59, 130, 246, 0.2) 0%, rgba(59, 130, 246, 0) 20%),
+    radial-gradient(circle at 90% 80%, rgba(139, 92, 246, 0.2) 0%, rgba(139, 92, 246, 0) 30%),
+    radial-gradient(circle at 50% 50%, rgba(99, 102, 241, 0.1) 0%, rgba(99, 102, 241, 0) 70%);
+}
+
+.login-card {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 1rem;
+  box-shadow: 
+    0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04),
+    0 0 0 1px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.dark .login-card {
+  background: rgba(30, 41, 59, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.login-card:hover {
+  box-shadow: 
+    0 25px 30px -5px rgba(0, 0, 0, 0.15),
+    0 10px 15px -5px rgba(0, 0, 0, 0.08),
+    0 0 0 1px rgba(0, 0, 0, 0.05);
+  transform: translateY(-2px);
+}
+
+.shimmer-button {
+  background-size: 200% 100%;
+  background-image: linear-gradient(
+    -45deg,
+    #4f46e5 0%,
+    #6366f1 25%,
+    #8b5cf6 50%,
+    #6366f1 75%,
+    #4f46e5 100%
+  );
+  animation: shimmer 3s infinite linear;
+  transition: all 0.5s ease;
+}
+
+.shimmer-button:hover {
+  animation-duration: 1.5s;
+  letter-spacing: 0.05em;
+}
+
+.input-focus-ring {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background: linear-gradient(to right, #4f46e5, #8b5cf6, #4f46e5);
+  transition: width 0.3s ease;
+}
+
+input:focus + .input-focus-ring {
+  width: 100%;
+}
+
+.floating-icon {
+  animation: float 6s ease-in-out infinite;
+}
+
+.pulse-icon {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.rotate-icon {
+  animation: rotate 10s linear infinite;
+}
+
+.avatar-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.2);
+}
+
+.avatar-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at center, rgba(99, 102, 241, 0) 0%, rgba(99, 102, 241, 0.3) 100%);
+  mix-blend-mode: overlay;
+  pointer-events: none;
+}
+
+.noise-texture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+  pointer-events: none;
+}
+
+.grid-pattern {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.particle {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  opacity: 0.3;
+  animation: fadeIn 1s ease-out forwards;
+}
+
+/* Custom checkbox styling */
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkbox-input {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.checkbox-visual {
+  height: 20px;
+  width: 20px;
+  border-radius: 4px;
+  border: 2px solid #cbd5e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  overflow: hidden;
+}
+
+.dark .checkbox-visual {
+  border-color: #475569;
+}
+
+.checkbox-input:checked + .checkbox-visual {
+  background-color: #4f46e5;
+  border-color: #4f46e5;
+}
+
+.checkbox-visual svg {
+  color: white;
+  transform: scale(0);
+  transition: transform 0.2s ease;
+}
+
+.checkbox-input:checked + .checkbox-visual svg {
+  transform: scale(1);
+}
+
+/* Reveal animation for elements */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: reveal 0.6s ease forwards;
+}
+
+@keyframes reveal {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reveal-delay-1 {
+  animation-delay: 0.1s;
+}
+
+.reveal-delay-2 {
+  animation-delay: 0.2s;
+}
+
+.reveal-delay-3 {
+  animation-delay: 0.3s;
+}
+
+.reveal-delay-4 {
+  animation-delay: 0.4s;
+}
+
+.reveal-delay-5 {
+  animation-delay: 0.5s;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .login-container {
+    flex-direction: column-reverse;
+  }
+  
+  .avatar-container {
+    height: 40vh;
+    order: 2;
+  }
+  
+  .floating-icons {
+    opacity: 0.6;
+    transform: scale(0.8);
+  }
+  
+  .feature-badge {
+    padding: 0.2rem 0.6rem;
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .login-card {
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .shimmer-btn {
+    width: 100%;
+  }
+  
+  .floating-icons svg {
+    transform: scale(0.7);
+  }
+  
+  .avatar-container {
+    height: 30vh;
+  }
+}
+
+@media (max-height: 700px) {
+  .login-container {
+    overflow-y: auto;
+  }
+  
+  .feature-badges {
+    display: none;
+  }
+}
+
+/* Dark mode optimizations */
+@media (prefers-color-scheme: dark) {
+  .login-container {
+    background-color: #0f172a;
+  }
+  
+  .feature-badge {
+    background: rgba(255, 255, 255, 0.08);
+    color: rgba(255, 255, 255, 0.85);
+  }
+}
