@@ -1,3 +1,7 @@
+/**
+ * Login Page Component
+ * Last updated: July 2, 2025 - Added modern design layout
+ */
 import React, { useState, Suspense, useRef, useEffect, lazy } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
