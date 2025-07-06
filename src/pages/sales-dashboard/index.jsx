@@ -1,3 +1,7 @@
+/**
+ * Sales Dashboard Component
+ * Last updated: July 6, 2025 - Created dashboard layout and structure
+ */
 import React, { useState, useEffect } from 'react';
 import { DragDropContext } from 'react-beautiful-dnd';
 import { motion } from 'framer-motion';

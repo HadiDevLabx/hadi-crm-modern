@@ -1,3 +1,7 @@
+/**
+ * Performance Metrics Component
+ * Last updated: July 7, 2025 - Implemented KPI cards and metrics
+ */
 import React from 'react';
 import { PieChart, Pie, Cell, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
 import Icon from 'components/AppIcon';
