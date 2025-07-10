@@ -1,4 +1,8 @@
-import React, { useState } from 'react';
+/**
+ * Contact Form Component
+ * Last updated: July 11, 2025 - Added contact form and validation logic
+ */
+import React, { useState, useEffect } from 'react';
 import Icon from 'components/AppIcon';
 
 const ContactForm = ({ contact, onSave, onCancel, isEditing }) => {
