@@ -1,3 +1,7 @@
+/**
+ * Deal Management Component
+ * Last updated: July 15, 2025 - Designed deal pipeline and stage management
+ */
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import Header from 'components/ui/Header';

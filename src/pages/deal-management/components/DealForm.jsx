@@ -1,3 +1,7 @@
+/**
+ * Deal Form Component
+ * Last updated: July 16, 2025 - Built deal form with advanced field validation
+ */
 import React, { useState, useEffect } from 'react';
 import Icon from 'components/AppIcon';
 
