@@ -1,5 +1,9 @@
 // src/pages/settings-administration/index.jsx
-import React, { useState } from 'react';
+/**
+ * Settings Administration Component
+ * Last updated: July 24, 2025 - Created settings administration panel structure
+ */
+import React, { useState, useEffect } from 'react';
 import Header from 'components/ui/Header';
 import Breadcrumb from 'components/ui/Breadcrumb';
 import SettingsNavigation from './components/SettingsNavigation';
