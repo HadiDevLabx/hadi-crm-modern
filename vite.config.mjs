@@ -11,6 +11,14 @@ export default defineConfig({
     outDir: "build",
     chunkSizeWarningLimit: 2000,
   },
+  resolve: {
+    alias: {
+      'pages': '/src/pages',
+      'components': '/src/components',
+      'styles': '/src/styles',
+      'utils': '/src/utils'
+    },
+  },
   plugins: [tsconfigPaths(), react(), tagger()],
   server: {
     port: "4028",
