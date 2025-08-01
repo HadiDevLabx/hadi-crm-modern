@@ -92,16 +92,26 @@ The app is built with responsive design using Tailwind CSS breakpoints.
 
 ## 📦 Deployment
 
-Build the application for production:
+### Deploy to Netlify
 
-```bash
-npm run build
-```
+This project is configured for easy deployment to Netlify:
 
-## 🙏 Acknowledgments
+#### Option 1: Deploy from Git Repository
+1. Push your code to GitHub
+2. Connect your GitHub repository to Netlify
+3. Netlify will automatically detect Vite and use the correct build settings
 
-- Built with [Rocket.new](https://rocket.new)
-- Powered by React and Vite
-- Styled with Tailwind CSS
+#### Option 2: Manual Deploy
+1. Build the application for production:
+   ```bash
+   npm run build
+   ```
+2. Upload the `dist` folder to Netlify
 
-Built with ❤️ on Rocket.new
+#### Netlify Configuration
+The project includes a `netlify.toml` file with optimized settings:
+- Build command: `npm run build`
+- Publish directory: `dist`
+- Redirects for SPA routing
+- Security headers
+
