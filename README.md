@@ -1,4 +1,4 @@
-<div align="center">
+<div align="ce[🌟 Vercel Demo](https://hadi-crm-sales.vercel.app/) • [🌐 Netlify Demo](https://hadi-crm-sales.netlify.app/) • [📖 Documentation](./DEPLOYMENT.md) • [🐛 Report Bug](https://github.com/HadiDevLabx/hadi-crm-sales/issues)ter">
 
 # 🚀 Hadi CRM Sales
 
@@ -9,9 +9,10 @@
 [![React](https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind-3.x-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Vercel](https://img.shields.io/badge/Vercel-Ready-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 [![Netlify](https://img.shields.io/badge/Netlify-Ready-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://netlify.com/)
 
-[🌟 Live Demo](https://hadi-crm-sales.netlify.app/) • [� Documentation](./DEPLOYMENT.md) • [🐛 Report Bug](https://github.com/your-username/hadi-crm-sales/issues)
+[🌟 Live Demo](https://hadi-crm-sales.netlify.app/) • [� Documentation](./DEPLOYMENT.md) • [🐛 Report Bug](https://github.com/HadiDevLabx/hadi-crm-sales/issues)
 
 </div>
 
@@ -89,7 +90,7 @@
 
 ```bash
 # 📥 Clone the repository
-git clone https://github.com/your-username/hadi-crm-sales.git
+git clone https://github.com/HadiDevLabx/hadi-crm-sales.git
 cd hadi-crm-sales
 
 # 📦 Install dependencies
@@ -125,7 +126,8 @@ npm start
 │   └── 🔧 utils/              # Helper functions
 ├── ⚡ vite.config.js          # Build configuration
 ├── 🎨 tailwind.config.js      # Styling configuration
-└── 🌐 netlify.toml            # Deployment configuration
+├── 🌐 netlify.toml            # Netlify deployment configuration
+└── ⚡ vercel.json             # Vercel deployment configuration
 ```
 
 ---
@@ -148,11 +150,33 @@ npm start
 
 ## 🚀 **Deployment**
 
-### **🌐 Deploy to Netlify (Recommended)**
+### **🔥 Deploy to Vercel (Recommended)**
+
+```bash
+# 1. Install Vercel CLI
+npm install -g vercel
+
+# 2. Login to Vercel
+vercel login
+
+# 3. Deploy to preview
+vercel
+
+# 4. Deploy to production
+vercel --prod
+```
+
+### **⚡ Vercel Features**
+- ✨ **Zero Config** - Automatic Vite detection
+- 🌍 **Global CDN** - Ultra-fast loading worldwide
+- 🔒 **Automatic HTTPS** - Secure by default
+- 🔄 **Preview Deployments** - Test before going live
+
+### **🌐 Deploy to Netlify (Alternative)**
 
 ```bash
 # 🔗 Connect to GitHub
-git remote add origin https://github.com/your-username/hadi-crm-sales.git
+git remote add origin https://github.com/HadiDevLabx/hadi-crm-sales.git
 git push -u origin main
 
 # 🚀 Deploy on Netlify
@@ -168,11 +192,12 @@ git push -u origin main
 # 🔨 Build for production
 npm run build
 
-# 📤 Upload 'dist' folder to any hosting service
+# 📤 Upload 'build' folder to any hosting service
 ```
 
-### **⚙️ Netlify Configuration Included**
-- ✅ **Auto-detection** of Vite build settings
+### **⚙️ Deployment Configuration Included**
+- ✅ **vercel.json** for Vercel deployment
+- ✅ **netlify.toml** for Netlify deployment
 - ✅ **SPA routing** with proper redirects
 - ✅ **Security headers** and optimizations
 - ✅ **CDN optimization** for global performance
@@ -237,17 +262,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Tailwind Labs** for the incredible CSS framework  
 - **Framer** for beautiful motion library
 - **Lottie** for engaging animations
+- **Vercel** for lightning-fast deployment
 - **Netlify** for seamless deployment
 
 ---
 
 <div align="center">
 
-**Built with ❤️ by [Hadi](https://github.com/your-username)**
+**Built with ❤️ by [Hadi](https://github.com/HadiDevLabx)**
 
 ⭐ **Star this repo if you found it helpful!**
 
-[🌟 Live Demo](https://hadi-crm-sales.netlify.app/) • [📖 Documentation](./DEPLOYMENT.md) • [🐛 Issues](https://github.com/your-username/hadi-crm-sales/issues)
+[🌟 Vercel Demo](https://hadi-crm-sales.vercel.app/) • [🌐 Netlify Demo](https://hadi-crm-sales.netlify.app/) • [📖 Documentation](./DEPLOYMENT.md) • [🐛 Issues](https://github.com/HadiDevLabx/hadi-crm-sales/issues)
 
 </div>
 
