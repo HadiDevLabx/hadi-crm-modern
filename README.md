@@ -14,7 +14,7 @@
 [![Vercel](https://img.shields.io/badge/Vercel-Ready-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 [![Netlify](https://img.shields.io/badge/Netlify-Ready-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://netlify.com/)
 
-[🌟 Live Demo](https://hadi-crm-sales.netlify.app/) • [� Documentation](./DEPLOYMENT.md) • [🐛 Report Bug](https://github.com/HadiDevLabx/hadi-crm-sales/issues)
+[🌟 Live Demo](https://hadi-crm-sales.vercel.app/) • [🐛 Report Bug](https://github.com/HadiDevLabx/hadi-crm-moderns/issues)
 
 </div>
 
