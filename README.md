@@ -1,4 +1,6 @@
-<div align="ce[🌟 Vercel Demo](https://hadi-crm-sales.vercel.app/) • [🌐 Netlify Demo](https://hadi-crm-sales.netlify.app/) • [📖 Documentation](./DEPLOYMENT.md) • [🐛 Report Bug](https://github.com/HadiDevLabx/hadi-crm-sales/issues)ter">
+<div align="ce[🌟 Live Demo](https://hadi-crm-sales.vercel.app/) • [📖 Documentation](./DEPLOYMENT.md) • [🐛 Report Bug](https://github.com/HadiDevLabx/hadi-crm-modern/issues)
+
+</div>r">
 
 # 🚀 Hadi CRM Sales
 
@@ -90,8 +92,8 @@
 
 ```bash
 # 📥 Clone the repository
-git clone https://github.com/HadiDevLabx/hadi-crm-sales.git
-cd hadi-crm-sales
+git clone https://github.com/HadiDevLabx/hadi-crm-modern.git
+cd hadi-crm-modern
 
 # 📦 Install dependencies
 npm install
@@ -107,7 +109,7 @@ npm start
 ## 📁 **Project Architecture**
 
 ```
-🏗️ hadi-crm-sales/
+🏗️ hadi-crm-modern/
 ├── 📂 public/                 # Static assets & animations
 │   ├── 🎬 animations/         # Lottie animation files
 │   ├── 🖼️ assets/             # Images and icons
@@ -176,7 +178,7 @@ vercel --prod
 
 ```bash
 # 🔗 Connect to GitHub
-git remote add origin https://github.com/HadiDevLabx/hadi-crm-sales.git
+git remote add origin https://github.com/HadiDevLabx/hadi-crm-modern.git
 git push -u origin main
 
 # 🚀 Deploy on Netlify
@@ -196,7 +198,7 @@ npm run build
 ```
 
 ### **⚙️ Deployment Configuration Included**
-- ✅ **vercel.json** for Vercel deployment
+- ✅ **vercel.jsonson** for Vercel deployment
 - ✅ **netlify.toml** for Netlify deployment
 - ✅ **SPA routing** with proper redirects
 - ✅ **Security headers** and optimizations
@@ -273,7 +275,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ⭐ **Star this repo if you found it helpful!**
 
-[🌟 Vercel Demo](https://hadi-crm-sales.vercel.app/) • [🌐 Netlify Demo](https://hadi-crm-sales.netlify.app/) • [📖 Documentation](./DEPLOYMENT.md) • [🐛 Issues](https://github.com/HadiDevLabx/hadi-crm-sales/issues)
+[🌟 Vercel Demo](https://hadi-crm-sales.vercel.app/) • [🌐 Netlify Demo](https://hadi-crm-sales.netlify.app/) • [📖 Documentation](./DEPLOYMENT.md) • [🐛 Issues](https://github.com/HadiDevLabx/hadi-crm-modern/issues)
 
 </div>
 
