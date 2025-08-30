@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { format } from 'date-fns';
-import Icon from 'components/AppIcon';
+import Icon from '../../../components/AppIcon';
 
 const ActivityTimeline = ({ activities, contact }) => {
   const [filter, setFilter] = useState('all');
@@ -151,3 +151,4 @@ const ActivityTimeline = ({ activities, contact }) => {
 };
 
 export default ActivityTimeline;
+

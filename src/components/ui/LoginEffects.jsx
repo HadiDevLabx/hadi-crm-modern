@@ -86,3 +86,4 @@ const FloatingIcons = () => {
 };
 
 export { Particles, FloatingIcons };
+

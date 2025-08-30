@@ -4,9 +4,9 @@
  */
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import Header from 'components/ui/Header';
-import Breadcrumb from 'components/ui/Breadcrumb';
-import Icon from 'components/AppIcon';
+import Header from '../../components/ui/Header';
+import Breadcrumb from '../../components/ui/Breadcrumb';
+import Icon from '../../components/AppIcon';
 
 import DealForm from './components/DealForm';
 import ActivityTimeline from './components/ActivityTimeline';

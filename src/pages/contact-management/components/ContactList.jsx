@@ -1,7 +1,7 @@
 import React from 'react';
 import { formatDistanceToNow } from 'date-fns';
-import Icon from 'components/AppIcon';
-import Image from 'components/AppImage';
+import Icon from '../../../components/AppIcon';
+import Image from '../../../components/AppImage';
 
 const ContactList = ({ 
   contacts, 
@@ -97,3 +97,4 @@ const ContactList = ({
 };
 
 export default ContactList;
+

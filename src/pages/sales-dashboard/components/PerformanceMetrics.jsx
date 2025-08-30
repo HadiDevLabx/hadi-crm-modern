@@ -4,7 +4,7 @@
  */
 import React from 'react';
 import { PieChart, Pie, Cell, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
-import Icon from 'components/AppIcon';
+import Icon from '../../../components/AppIcon';
 
 const PerformanceMetrics = ({ data }) => {
   const quotaData = [

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Icon from 'components/AppIcon';
+import Icon from '../../../components/AppIcon';
 
 const AddActivityModal = ({ isOpen, onClose }) => {
   const [formData, setFormData] = useState({
@@ -268,3 +268,4 @@ const AddActivityModal = ({ isOpen, onClose }) => {
 };
 
 export default AddActivityModal;
+

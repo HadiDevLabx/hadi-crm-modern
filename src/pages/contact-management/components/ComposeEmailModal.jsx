@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Icon from 'components/AppIcon';
+import Icon from '../../../components/AppIcon';
 
 const ComposeEmailModal = ({ contact, onClose, onSend }) => {
   const [emailData, setEmailData] = useState({
@@ -199,3 +199,4 @@ const ComposeEmailModal = ({ contact, onClose, onSend }) => {
 };
 
 export default ComposeEmailModal;
+

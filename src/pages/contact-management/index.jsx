@@ -4,10 +4,10 @@
  */
 import React, { useState, useEffect } from 'react';
 
-import Icon from 'components/AppIcon';
+import Icon from '../../components/AppIcon';
 
-import Header from 'components/ui/Header';
-import Breadcrumb from 'components/ui/Breadcrumb';
+import Header from '../../components/ui/Header';
+import Breadcrumb from '../../components/ui/Breadcrumb';
 import ContactList from './components/ContactList';
 import ContactDetail from './components/ContactDetail';
 import ContactForm from './components/ContactForm';

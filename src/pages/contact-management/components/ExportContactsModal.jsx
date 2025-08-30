@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Icon from 'components/AppIcon';
+import Icon from '../../../components/AppIcon';
 
 const ExportContactsModal = ({ contacts, onClose }) => {
   const [exportFormat, setExportFormat] = useState('csv');
@@ -213,3 +213,4 @@ const ExportContactsModal = ({ contacts, onClose }) => {
 };
 
 export default ExportContactsModal;
+

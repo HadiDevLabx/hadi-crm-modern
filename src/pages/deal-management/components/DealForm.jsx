@@ -3,7 +3,7 @@
  * Last updated: July 16, 2025 - Built deal form with advanced field validation
  */
 import React, { useState, useEffect } from 'react';
-import Icon from 'components/AppIcon';
+import Icon from '../../../components/AppIcon';
 
 const DealForm = ({ deal, contacts, stages, salesReps, onSave, isSaving }) => {
   const [formData, setFormData] = useState({
@@ -403,3 +403,4 @@ const DealForm = ({ deal, contacts, stages, salesReps, onSave, isSaving }) => {
 };
 
 export default DealForm;
+

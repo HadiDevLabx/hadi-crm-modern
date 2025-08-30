@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Icon from 'components/AppIcon';
+import Icon from '../../../components/AppIcon';
 
 const LogCallModal = ({ contact, onClose, onLog }) => {
   const [callData, setCallData] = useState({
@@ -195,3 +195,4 @@ const LogCallModal = ({ contact, onClose, onLog }) => {
 };
 
 export default LogCallModal;
+

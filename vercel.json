@@ -5,11 +5,27 @@
       "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "build"
+        "outputDirectory": "build",
+        "zeroConfig": true
       }
     }
   ],
   "routes": [
+    { 
+      "src": "/manifest.json",
+      "headers": { "Content-Type": "application/manifest+json" }
+    },
+    {
+      "src": "^/assets/(.*)\\.js$",
+      "headers": { "Content-Type": "application/javascript" }
+    },
+    {
+      "src": "^/assets/(.*)\\.css$",
+      "headers": { "Content-Type": "text/css" }
+    },
+    {
+      "handle": "filesystem"
+    },
     {
       "src": "/(.*)",
       "dest": "/index.html"

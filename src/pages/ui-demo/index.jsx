@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import Header from 'components/ui/Header';
-import Breadcrumb from 'components/ui/Breadcrumb';
-import { Icon3D, NavigationIcon3D } from 'components/ui/Icon3D';
-import { Card3DContainer, Feature3DCard } from 'components/ui/Card3D';
-import { Avatar3D } from 'components/ui/Avatar3D';
-import { Dashboard3D, Dashboard3DDemo } from 'components/ui/Dashboard3D';
-import D3Visualization from 'components/ui/D3Visualization';
-import { WorkflowDiagram, FlowProvider } from 'components/ui/WorkflowDiagram';
-import Chart from 'components/ui/Chart';
+import Header from '../../components/ui/Header';
+import Breadcrumb from '../../components/ui/Breadcrumb';
+import { Icon3D, NavigationIcon3D } from '../../components/ui/Icon3D';
+import { Card3DContainer, Feature3DCard } from '../../components/ui/Card3D';
+import { Avatar3D } from '../../components/ui/Avatar3D';
+import { Dashboard3D, Dashboard3DDemo } from '../../components/ui/Dashboard3D';
+import D3Visualization from '../../components/ui/D3Visualization';
+import { WorkflowDiagram, FlowProvider } from '../../components/ui/WorkflowDiagram';
+import Chart from '../../components/ui/Chart';
 
 const UIDemo = () => {
   const [activeTab, setActiveTab] = useState('3d-elements');
@@ -368,3 +368,4 @@ const UIDemo = () => {
 };
 
 export default UIDemo;
+

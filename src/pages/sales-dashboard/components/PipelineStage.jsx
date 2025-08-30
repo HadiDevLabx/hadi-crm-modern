@@ -1,7 +1,7 @@
 import React from 'react';
 import { Droppable, Draggable } from 'react-beautiful-dnd';
-import Icon from 'components/AppIcon';
-import Image from 'components/AppImage';
+import Icon from '../../../components/AppIcon';
+import Image from '../../../components/AppImage';
 
 const PipelineStage = ({ stage, totalValue, weightedValue }) => {
   const getStageColor = (stageId) => {

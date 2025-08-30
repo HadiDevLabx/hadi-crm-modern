@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { format } from 'date-fns';
-import Icon from 'components/AppIcon';
-import Image from 'components/AppImage';
+import Icon from '../../../components/AppIcon';
+import Image from '../../../components/AppImage';
 import ActivityTimeline from './ActivityTimeline';
 import DealsList from './DealsList';
 import ComposeEmailModal from './ComposeEmailModal';
@@ -324,3 +324,4 @@ const ContactDetail = ({ contact, onEdit, onDelete }) => {
 };
 
 export default ContactDetail;
+

@@ -152,3 +152,4 @@ export const Avatar3D = ({
 };
 
 export default Avatar3D;
+

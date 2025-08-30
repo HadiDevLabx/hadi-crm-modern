@@ -9,8 +9,8 @@ import gsap from 'gsap';
 import { Canvas } from '@react-three/fiber';
 import { useSpring, animated } from '@react-spring/web';
 import { Environment, Float, OrbitControls, useAnimations, Stars } from '@react-three/drei';
-import BackgroundDecoration from 'components/ui/BackgroundDecoration';
-import LottieAnimation from 'components/ui/LottieAnimation';
+import BackgroundDecoration from '../../components/ui/BackgroundDecoration';
+import LottieAnimation from '../../components/ui/LottieAnimation';
 import Tilt from 'react-parallax-tilt';
 import { FiMail, FiLock, FiEye, FiEyeOff, FiUser, FiShield, 
          FiActivity, FiBarChart2, FiGrid, FiCpu, FiDatabase, 
@@ -19,8 +19,8 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import '../../styles/login.css';
 
 // Lazy load components
-const FloatingIcons = lazy(() => import('components/ui/LoginEffects').then(module => ({ default: module.FloatingIcons })));
-const Particles = lazy(() => import('components/ui/LoginEffects').then(module => ({ default: module.Particles })));
+const FloatingIcons = lazy(() => import('../../components/ui/LoginEffects').then(module => ({ default: module.FloatingIcons })));
+const Particles = lazy(() => import('../../components/ui/LoginEffects').then(module => ({ default: module.Particles })));
 
 // 3D Avatar component using a simplified geometry
 const Avatar3D = () => {

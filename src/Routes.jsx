@@ -1,18 +1,18 @@
 import React from "react";
 import { BrowserRouter, Routes as RouterRoutes, Route } from "react-router-dom";
-import ScrollToTop from "components/ScrollToTop";
-import ErrorBoundary from "components/ErrorBoundary";
+import ScrollToTop from "./components/ScrollToTop";
+import ErrorBoundary from "./components/ErrorBoundary";
 
 // Page imports
-import Login from "pages/login";
-import SalesDashboard from "pages/sales-dashboard";
-import DealManagement from "pages/deal-management";
-import ContactManagement from "pages/contact-management";
-import PipelineAnalytics from "pages/pipeline-analytics";
-import ActivityTimeline from "pages/activity-timeline";
-import SettingsAdministration from "pages/settings-administration";
-import ChartDemo from "pages/chart-demo";
-import UIDemo from "pages/ui-demo";
+import Login from "./pages/login";
+import SalesDashboard from "./pages/sales-dashboard";
+import DealManagement from "./pages/deal-management";
+import ContactManagement from "./pages/contact-management";
+import PipelineAnalytics from "./pages/pipeline-analytics";
+import ActivityTimeline from "./pages/activity-timeline";
+import SettingsAdministration from "./pages/settings-administration";
+import ChartDemo from "./pages/chart-demo";
+import UIDemo from "./pages/ui-demo";
 
 const Routes = () => {
   return (

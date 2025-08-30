@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Icon from 'components/AppIcon';
+import Icon from '../../../components/AppIcon';
 
 const ImportContactsModal = ({ onImport, onClose }) => {
   const [step, setStep] = useState(1);
@@ -390,3 +390,4 @@ const ImportContactsModal = ({ onImport, onClose }) => {
 };
 
 export default ImportContactsModal;
+

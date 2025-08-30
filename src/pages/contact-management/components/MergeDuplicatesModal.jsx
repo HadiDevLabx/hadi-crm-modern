@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Icon from 'components/AppIcon';
-import Image from 'components/AppImage';
+import Icon from '../../../components/AppIcon';
+import Image from '../../../components/AppImage';
 
 const MergeDuplicatesModal = ({ contact1, contact2, onMerge, onClose }) => {
   const [mergedContact, setMergedContact] = useState({
@@ -173,3 +173,4 @@ const MergeDuplicatesModal = ({ contact1, contact2, onMerge, onClose }) => {
 };
 
 export default MergeDuplicatesModal;
+

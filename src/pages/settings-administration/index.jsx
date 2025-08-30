@@ -4,8 +4,8 @@
  * Last updated: July 24, 2025 - Created settings administration panel structure
  */
 import React, { useState, useEffect } from 'react';
-import Header from 'components/ui/Header';
-import Breadcrumb from 'components/ui/Breadcrumb';
+import Header from '../../components/ui/Header';
+import Breadcrumb from '../../components/ui/Breadcrumb';
 import SettingsNavigation from './components/SettingsNavigation';
 import UserManagement from './components/UserManagement';
 import Permissions from './components/Permissions';

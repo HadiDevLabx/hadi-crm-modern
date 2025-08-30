@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon from 'components/AppIcon';
+import Icon from '../../../components/AppIcon';
 
 const DealActions = ({ onSave, onDelete, onClone, onCreateTask, isSaving }) => {
   return (
@@ -58,3 +58,4 @@ const DealActions = ({ onSave, onDelete, onClone, onCreateTask, isSaving }) => {
 };
 
 export default DealActions;
+

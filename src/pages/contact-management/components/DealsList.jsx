@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Icon from 'components/AppIcon';
+import Icon from '../../../components/AppIcon';
 
 const DealsList = ({ deals, contactName }) => {
   const formatCurrency = (value) => {
@@ -127,3 +127,4 @@ const DealsList = ({ deals, contactName }) => {
 };
 
 export default DealsList;
+

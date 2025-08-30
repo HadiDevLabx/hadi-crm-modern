@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Icon from 'components/AppIcon';
+import Icon from '../../../components/AppIcon';
 
 const ActivityTimeline = ({ activities, contact }) => {
   const [showAddActivity, setShowAddActivity] = useState(false);
@@ -255,3 +255,4 @@ const ActivityTimeline = ({ activities, contact }) => {
 };
 
 export default ActivityTimeline;
+

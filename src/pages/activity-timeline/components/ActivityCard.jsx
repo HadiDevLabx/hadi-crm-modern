@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Icon from 'components/AppIcon';
-import Image from 'components/AppImage';
+import Icon from '../../../components/AppIcon';
+import Image from '../../../components/AppImage';
 
 const ActivityCard = ({ activity, isLast }) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -277,3 +277,4 @@ const ActivityCard = ({ activity, isLast }) => {
 };
 
 export default ActivityCard;
+

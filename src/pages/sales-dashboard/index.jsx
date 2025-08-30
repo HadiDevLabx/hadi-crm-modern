@@ -5,10 +5,10 @@
 import React, { useState, useEffect } from 'react';
 import { DragDropContext } from 'react-beautiful-dnd';
 import { motion } from 'framer-motion';
-import Header from 'components/ui/Header';
-import Breadcrumb from 'components/ui/Breadcrumb';
-import Icon from 'components/AppIcon';
-import Chart from 'components/ui/Chart';
+import Header from '../../components/ui/Header';
+import Breadcrumb from '../../components/ui/Breadcrumb';
+import Icon from '../../components/AppIcon';
+import Chart from '../../components/ui/Chart';
 
 import RecentActivity from './components/RecentActivity';
 import QuickActions from './components/QuickActions';

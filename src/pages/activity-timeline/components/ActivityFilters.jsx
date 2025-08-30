@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon from 'components/AppIcon';
+import Icon from '../../../components/AppIcon';
 
 const ActivityFilters = ({ selectedFilters, onFiltersChange }) => {
   const activityTypes = [
@@ -154,3 +154,4 @@ const ActivityFilters = ({ selectedFilters, onFiltersChange }) => {
 };
 
 export default ActivityFilters;
+

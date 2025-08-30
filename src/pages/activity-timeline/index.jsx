@@ -3,9 +3,9 @@
  * Last updated: July 19, 2025 - Created activity tracking and filtering system
  */
 import React, { useState, useEffect } from 'react';
-import Header from 'components/ui/Header';
-import Breadcrumb from 'components/ui/Breadcrumb';
-import Icon from 'components/AppIcon';
+import Header from '../../components/ui/Header';
+import Breadcrumb from '../../components/ui/Breadcrumb';
+import Icon from '../../components/AppIcon';
 
 import ActivityCard from './components/ActivityCard';
 import ActivityFilters from './components/ActivityFilters';

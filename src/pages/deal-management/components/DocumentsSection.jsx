@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import Icon from 'components/AppIcon';
+import Icon from '../../../components/AppIcon';
 
 const DocumentsSection = ({ documents, dealId }) => {
   const [isDragOver, setIsDragOver] = useState(false);
@@ -262,3 +262,4 @@ const DocumentsSection = ({ documents, dealId }) => {
 };
 
 export default DocumentsSection;
+

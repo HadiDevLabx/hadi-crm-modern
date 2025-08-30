@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Icon from 'components/AppIcon';
+import Icon from '../../../components/AppIcon';
 
 const FilterPanel = ({ filters, setFilters, onClose }) => {
   const [localFilters, setLocalFilters] = useState({ ...filters });
@@ -190,3 +190,4 @@ const FilterPanel = ({ filters, setFilters, onClose }) => {
 };
 
 export default FilterPanel;
+
